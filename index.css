@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://cdn.shopify.com/s/files/1/1279/9999/products/Classic-Blackjack---GREEN_5000x.jpg?v=1569240342");
+  background-size: cover;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+  color: goldenrod;
+}
+
+button {
+  background-color: goldenrod;
+  color: darkgreen;
+  font-weight: bold;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: white;
+  color: goldenrod;
+}
+
+#message-el {
+  font-style: italic;  
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+#cards-el,
+#sum-el {
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0;
+}
